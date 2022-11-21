@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 
 const shadowOpacity = Platform.OS === 'android' ? 1 : 0.1;
 
-export const Category = styled.TouchableOpacity`
+export const CategoryContainer = styled.TouchableOpacity`
   align-items: center;
   margin-left: 24px;
 `;
